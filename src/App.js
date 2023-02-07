@@ -74,7 +74,7 @@ const App = () => {
       const popupOffset = {
         bottom: [0, -25]
       }
-      const popup = new tt.Popup({ offset: popupOffset }).setHTML('Hello Alex let's go😎!')
+      const popup = new tt.Popup({ offset: popupOffset }).setHTML('Hello Alex let's go.😎!')
       const element = document.createElement('div')
       element.className = 'marker'
 
