@@ -7,8 +7,8 @@ import '@tomtom-international/web-sdk-maps/dist/maps.css'
 const App = () => {
   const mapElement = useRef()
   const [map, setMap] = useState({})
-  const [longitude, setLongitude] = useState(51.534817)
-  const [latitude, setLatitude] = useState(25.286106)
+  const [longitude, setLongitude] = useState(52.2672)
+  const [latitude, setLatitude] = useState(44.9388)
 
   const convertToPoints = (lngLat) => {
     return {
